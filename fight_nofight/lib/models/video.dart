@@ -3,10 +3,10 @@ import 'package:geolocator/geolocator.dart';
 class Video {
   String videoOutput;
   String videoCaptureTime;
-  Position videoLocation;
+  Position videoCaptureLocation;
 
   Video(
       {required this.videoOutput,
       required this.videoCaptureTime,
-      required this.videoLocation});
+      required this.videoCaptureLocation});
 }
